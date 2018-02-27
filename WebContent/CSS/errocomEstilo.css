@@ -1,0 +1,32 @@
+*{
+  margin: 0 auto 0 auto;
+  text-align: center;  
+ }
+  #containerErro{
+   background-color: #cee5eb;
+   height: 100vh;
+  }
+  h1{
+  color: #ffffff;
+  font-size: 43px;
+  padding: 20px 0 10px 20px;
+  }
+  p{
+  padding: 30px 0 0 20px;
+  font-weight: bold;
+  color: #a40000;
+  }
+   #container404{
+   background-color: #ceb69c;
+   height: 100vh;
+  }
+  #container404 h1{
+  color: #ffffff;
+  font-size: 43px;
+  padding: 20px 0 10px 20px;
+  }
+  a{
+  padding: 30px 0 0 20px;
+  font-weight: bold;
+  color: #a40000;
+  }
