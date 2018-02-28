@@ -37,6 +37,7 @@
 <td><fmt:formatDate value="${contato.dataNascimento.time}"
 pattern="dd/MM/yyyy" /></td>
 <td>${contato.cidade}</td>
+<td><a href="mvc?logica=AlteraContato&id=${contato.id}">Alterar</a>
 <td><a href="mvc?logica=RemoveContato&id=${contato.id}">Remover</a>
 </td>
 </tr>

@@ -16,6 +16,13 @@
 				<h5>Preencha os campos abaixo:</h5>
 				<form action="mvc?logica=AdicionaAlteraContato" method="post">
 					<p>
+					Insira o ID do contato que deseja alterar.
+					</p>
+					<p>
+						<label for="id">  Id:</label>
+						<input type="text" name="id">
+					</p>
+					<p>
 						<label for="nome">Nome Completo:</label>
 						<input type="text" name="nome">
 					</p>
@@ -44,7 +51,7 @@
           				</datalist>
         			</p>
         			<p>
-        				<input type="submit" value="Salvar contato">
+        				<input type="submit" value="Alterar contato">
        				</p>
 						
 				</form>
